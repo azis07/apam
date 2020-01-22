@@ -4,9 +4,9 @@ var ProductQ= _shortQ();
 var IsDP= window.location.hostname;
 	
 	if(ProductId != ''){
-		var uris= "https://s.click.aliexpress.com/deep_link.htm?dl_target_url=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F-%2F"+ProductId+".html&aff_short_key="+reffLink+"&dp="+IsDP;
+		//var uris= "https://s.click.aliexpress.com/deep_link.htm?dl_target_url=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F-%2F"+ProductId+".html&aff_short_key="+reffLink+"&dp="+IsDP;
 	} else {
-		var uris= "https://www.aliexpress.com/af/-.html?SearchText="+ProductQ+"&sk="+reffLink+"="+IsDP;
+		//var uris= "https://www.aliexpress.com/af/-.html?SearchText="+ProductQ+"&sk="+reffLink+"="+IsDP;
 	}
 	
 window.open(uris, "_self");
